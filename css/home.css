@@ -1,0 +1,124 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+    font-family: "Mali", cursive;
+
+}
+
+
+    /* 3d */
+    html {
+        width: 100%;
+        height: 100%;
+        background: #11e8bb; /* Old browsers */
+        background: -moz-linear-gradient(top,  #11e8bb 0%, #8200c9 100%); /* FF3.6-15 */
+        background: -webkit-linear-gradient(top,  #11e8bb 0%,#8200c9 100%); /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to bottom,  #11e8bb 0%,#8200c9 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#11e8bb', endColorstr='#8200c9',GradientType=0 ); /* IE6-9 */
+        overflow: hidden;
+      }
+      
+      body {
+        margin: 0;
+        padding: 0;
+      }
+      
+    /* 3d */
+
+
+.box{
+    padding: 40px;
+    height: 400px;
+    width: 500px;
+    background-color: rgb(91, 208, 255);
+    position: absolute;
+    left: 30%;
+    top: 15%;
+    border: solid 0px;
+    border-radius: 50px;
+    .logo{
+        width: 130px;
+        height: auto;
+        display: inline;
+        padding: 10px;
+    }
+    .ตัวหนังสือ{
+        margin: 10px;
+        font-family: "Mali", cursive;
+    }
+
+
+    .กรอกข้อมูล{
+
+        align-items: center;
+        position: relative;
+        top: 20px;
+
+        .กรอก{
+            width: 95%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            font-size: 16px;
+            outline: none;
+
+          }
+          .กรอก[placeholder="รหัสนักศึกษา"]{
+            color: #ff38e4;
+          }
+          
+          .กรอก::placeholder {
+            color: #55fff6;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); 
+          }
+          
+          
+          .กรอก:focus  {
+            border-color: #007bff;
+            box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+          }
+          .input {
+            background-color: transparent; 
+            color: #007bff; 
+            border: 2px solid #007bff; 
+            padding: 12px 24px; 
+            border-radius: 25px; 
+            font-size: 16px; 
+            font-weight: bold; 
+            text-transform: uppercase; 
+            cursor: pointer; 
+            transition: all 0.3s ease; 
+            position: relative;
+            left: 35%;
+          }
+          
+          .input:hover {
+            background-color: #007bff;
+            color: #fff; 
+          }
+          
+          .input:focus {
+            outline: none; 
+            border-color: #0056b3;
+            box-shadow: 0 0 10px rgba(0, 123, 255, 0.5);
+          }
+          .ดูรหัสผ่าน{
+            display: flex;
+            position: absolute;
+            top: 115px;
+            left: 460px;
+            border: 0px;
+
+          }
+
+    }
+    
+
+}
+
+/*  */
+
+
+
+/*  */
